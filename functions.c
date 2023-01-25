@@ -1,6 +1,6 @@
 #include "main.h"
 
-/************************* PRINT CHAR *************************/
+/************************* PRINT CHAR DATA TYPE *************************/
 
 /**
  * print_char - Prints a char
@@ -97,7 +97,7 @@ int print_percent(va_list types, char buffer[],
 	return (write(1, "%%", 1));
 }
 
-/************************* PRINT INT *************************/
+/************************* PRINT INT DATA TYPE *************************/
 /**
  * print_int - Print int
  * @types: Lista of arguments
